@@ -45,23 +45,34 @@ To contribute to this package, it is recommended to follow this structure:
 
 ### Prerequisites
 * The program was created using **Python3.7**
-* OpenCV
-* Matplotlib
+* Pytorch
+* Numpy
+* Pandas
+* Tensorboard
+* Seaborn
+* Scipy
+* Gym
 
 ### Installation
 To install the RLBotics toolbox, install the required librarires and clone this repository using the following commands:
 
 ```
-pip install opencv-python
-pip install matplotlib
-git clone https://github.com/kousheekc/DIY-Spectrometer-Analyser.git
+pip install torch
+pip install numpy
+pip install pandas
+pip install tensorboard
+pip install seaborn
+pip install gym
+git clone https://github.com/kousheekc/Reinforcement-Learning-Toolbox-for-Robotics.git
 ```
 
 ## Usage
 To run the an algorithm on a perticular environment, open a terminal and navigate to the folder you just cloned and run the following command:
 ```
-python3 analyser.py
+python3 -m rlbotics.algo.main
 ```
+Where `algo` can be replaced by the algorithm you wish to use. You can also pass in arguments, or modify the `hyperparameters.py` file contained in each algorithm folder to change the environment and other hyperparameters related to the algorithm.
+
 Once the algorithm is running you can deploy a tensorboard session ot track the progress.
 
 ## License
