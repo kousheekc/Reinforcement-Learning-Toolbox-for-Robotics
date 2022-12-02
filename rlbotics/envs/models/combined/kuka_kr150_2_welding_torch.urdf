@@ -1,0 +1,574 @@
+<robot name="">
+	<link name="base_link">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+			<mass value="1.00000" />
+			<inertia ixx="0.09375" ixy="0" ixz="0" iyy="0.12853" iyz="0" izz="0.20335" />
+		</inertial>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/robots/kuka/kr150/meshes/kr150_2/visual/base_link.dae" scale="1.00000 1.00000 1.00000" />
+			</geometry>
+			<material name="0">
+				<color rgba="0.05490 0.14510 0.20000 1.00000" />
+			</material>
+		</visual>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/robots/kuka/kr150/meshes/kr150_2/collision/base_link.stl" scale="1.00000 1.00000 1.00000" />
+			</geometry>
+		</collision>
+	</link>
+	<link name="link_1">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+			<mass value="1.00000" />
+			<inertia ixx="0.10882" ixy="0" ixz="0" iyy="0.14694" iyz="0" izz="0.18094" />
+		</inertial>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/robots/kuka/kr150/meshes/kr150_2/visual/link_1.dae" scale="1.00000 1.00000 1.00000" />
+			</geometry>
+			<material name="1">
+				<color rgba="0.94902 0.36078 0.09804 1.00000" />
+			</material>
+		</visual>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/robots/kuka/kr150/meshes/kr150_2/collision/link_1.stl" scale="1.00000 1.00000 1.00000" />
+			</geometry>
+		</collision>
+	</link>
+	<link name="link_2">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+			<mass value="1.00000" />
+			<inertia ixx="0.03956" ixy="0" ixz="0" iyy="0.25097" iyz="0" izz="0.25274" />
+		</inertial>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/robots/kuka/kr150/meshes/kr150_2/visual/link_2.dae" scale="1.00000 1.00000 1.00000" />
+			</geometry>
+			<material name="2">
+				<color rgba="0.94902 0.36078 0.09804 1.00000" />
+			</material>
+		</visual>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/robots/kuka/kr150/meshes/kr150_2/collision/link_2.stl" scale="1.00000 1.00000 1.00000" />
+			</geometry>
+		</collision>
+	</link>
+	<link name="link_3">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+			<mass value="1.00000" />
+			<inertia ixx="0.04369" ixy="0" ixz="0" iyy="0.13600" iyz="0" izz="0.13118" />
+		</inertial>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/robots/kuka/kr150/meshes/kr150_2/visual/link_3.dae" scale="1.00000 1.00000 1.00000" />
+			</geometry>
+			<material name="3">
+				<color rgba="0.94902 0.36078 0.09804 1.00000" />
+			</material>
+		</visual>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/robots/kuka/kr150/meshes/kr150_2/collision/link_3.stl" scale="1.00000 1.00000 1.00000" />
+			</geometry>
+		</collision>
+	</link>
+	<link name="link_4">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+			<mass value="1.00000" />
+			<inertia ixx="0.01392" ixy="0" ixz="0" iyy="0.02183" iyz="0" izz="0.02797" />
+		</inertial>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/robots/kuka/kr150/meshes/kr150_2/visual/link_4.dae" scale="1.00000 1.00000 1.00000" />
+			</geometry>
+			<material name="4">
+				<color rgba="0.94902 0.36078 0.09804 1.00000" />
+			</material>
+		</visual>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/robots/kuka/kr150/meshes/kr150_2/collision/link_4.stl" scale="1.00000 1.00000 1.00000" />
+			</geometry>
+		</collision>
+	</link>
+	<link name="link_5">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+			<mass value="1.00000" />
+			<inertia ixx="0.01008" ixy="0" ixz="0" iyy="0.01350" iyz="0" izz="0.01349" />
+		</inertial>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/robots/kuka/kr150/meshes/kr150_2/visual/link_5.dae" scale="1.00000 1.00000 1.00000" />
+			</geometry>
+			<material name="5">
+				<color rgba="0.94902 0.36078 0.09804 1.00000" />
+			</material>
+		</visual>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/robots/kuka/kr150/meshes/kr150_2/collision/link_5.stl" scale="1.00000 1.00000 1.00000" />
+			</geometry>
+		</collision>
+	</link>
+	<link name="link_6">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+			<mass value="1.00000" />
+			<inertia ixx="0.00692" ixy="0" ixz="0" iyy="0.00361" iyz="0" izz="0.00362" />
+		</inertial>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/robots/kuka/kr150/meshes/kr150_2/visual/link_6.dae" scale="1.00000 1.00000 1.00000" />
+			</geometry>
+			<material name="6">
+				<color rgba="0.75294 0.75294 0.75294 1.00000" />
+			</material>
+		</visual>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/robots/kuka/kr150/meshes/kr150_2/collision/link_6.stl" scale="1.00000 1.00000 1.00000" />
+			</geometry>
+		</collision>
+	</link>
+	<link name="tool0">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+			<mass value="1.00000" />
+			<inertia ixx="0.00000" ixy="0" ixz="0" iyy="0.00000" iyz="0" izz="0.00000" />
+		</inertial>
+	</link>
+	<link name="base">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+			<mass value="1.00000" />
+			<inertia ixx="0.00000" ixy="0" ixz="0" iyy="0.00000" iyz="0" izz="0.00000" />
+		</inertial>
+	</link>
+	<link name="root">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="-0.01448 -0.00427 0.02204" />
+			<mass value="10.00000" />
+			<inertia ixx="0.17377" ixy="0" ixz="0" iyy="0.14938" iyz="0" izz="0.03532" />
+		</inertial>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="-0.01459 -0.00427 0.02232" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/end_effectors/welding_torches/welding_torch/meshes/dae/Body1.dae" scale="0.01000 0.01000 0.01000" />
+			</geometry>
+			<material name="7">
+				<color rgba="0.80000 0.80000 0.80000 1.00000" />
+			</material>
+		</visual>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="-0.01459 -0.00427 0.02232" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/end_effectors/welding_torches/welding_torch/meshes/dae/Body10.dae" scale="0.01000 0.01000 0.01000" />
+			</geometry>
+			<material name="8">
+				<color rgba="0.80000 0.64627 0.39843 1.00000" />
+			</material>
+		</visual>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="-0.01459 -0.00427 0.02232" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/end_effectors/welding_torches/welding_torch/meshes/dae/Body11.dae" scale="0.01000 0.01000 0.01000" />
+			</geometry>
+			<material name="9">
+				<color rgba="0.80000 0.64627 0.39843 1.00000" />
+			</material>
+		</visual>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="-0.01459 -0.00427 0.02232" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/end_effectors/welding_torches/welding_torch/meshes/dae/Body12.dae" scale="0.01000 0.01000 0.01000" />
+			</geometry>
+			<material name="10">
+				<color rgba="0.63373 0.65569 0.74667 1.00000" />
+			</material>
+		</visual>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="-0.01459 -0.00427 0.02232" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/end_effectors/welding_torches/welding_torch/meshes/dae/Body13.dae" scale="0.01000 0.01000 0.01000" />
+			</geometry>
+			<material name="11">
+				<color rgba="0.71843 0.73412 0.74353 1.00000" />
+			</material>
+		</visual>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="-0.01459 -0.00427 0.02232" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/end_effectors/welding_torches/welding_torch/meshes/dae/Body14.dae" scale="0.01000 0.01000 0.01000" />
+			</geometry>
+			<material name="12">
+				<color rgba="0.63373 0.65569 0.74667 1.00000" />
+			</material>
+		</visual>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="-0.01459 -0.00427 0.02232" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/end_effectors/welding_torches/welding_torch/meshes/dae/Body15.dae" scale="0.01000 0.01000 0.01000" />
+			</geometry>
+			<material name="13">
+				<color rgba="0.80000 0.64627 0.39843 1.00000" />
+			</material>
+		</visual>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="-0.01459 -0.00427 0.02232" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/end_effectors/welding_torches/welding_torch/meshes/dae/Body16.dae" scale="0.01000 0.01000 0.01000" />
+			</geometry>
+			<material name="14">
+				<color rgba="0.63373 0.65569 0.74667 1.00000" />
+			</material>
+		</visual>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="-0.01459 -0.00427 0.02232" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/end_effectors/welding_torches/welding_torch/meshes/dae/Body17.dae" scale="0.01000 0.01000 0.01000" />
+			</geometry>
+			<material name="15">
+				<color rgba="0.63373 0.65569 0.74667 1.00000" />
+			</material>
+		</visual>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="-0.01459 -0.00427 0.02232" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/end_effectors/welding_torches/welding_torch/meshes/dae/Body18.dae" scale="0.01000 0.01000 0.01000" />
+			</geometry>
+			<material name="16">
+				<color rgba="0.63373 0.65569 0.74667 1.00000" />
+			</material>
+		</visual>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="-0.01459 -0.00427 0.02232" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/end_effectors/welding_torches/welding_torch/meshes/dae/Body19.dae" scale="0.01000 0.01000 0.01000" />
+			</geometry>
+			<material name="17">
+				<color rgba="0.63373 0.65569 0.74667 1.00000" />
+			</material>
+		</visual>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="-0.01459 -0.00427 0.02232" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/end_effectors/welding_torches/welding_torch/meshes/dae/Body2.dae" scale="0.01000 0.01000 0.01000" />
+			</geometry>
+			<material name="18">
+				<color rgba="0.54902 0.48627 0.42353 1.00000" />
+			</material>
+		</visual>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="-0.01459 -0.00427 0.02232" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/end_effectors/welding_torches/welding_torch/meshes/dae/Body20.dae" scale="0.01000 0.01000 0.01000" />
+			</geometry>
+			<material name="19">
+				<color rgba="0.63373 0.65569 0.74667 1.00000" />
+			</material>
+		</visual>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="-0.01459 -0.00427 0.02232" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/end_effectors/welding_torches/welding_torch/meshes/dae/Body21.dae" scale="0.01000 0.01000 0.01000" />
+			</geometry>
+			<material name="20">
+				<color rgba="0.80000 0.64627 0.39843 1.00000" />
+			</material>
+		</visual>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="-0.01459 -0.00427 0.02232" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/end_effectors/welding_torches/welding_torch/meshes/dae/Body23.dae" scale="0.01000 0.01000 0.01000" />
+			</geometry>
+			<material name="21">
+				<color rgba="0.23843 0.23843 0.23843 1.00000" />
+			</material>
+		</visual>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="-0.01459 -0.00427 0.02232" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/end_effectors/welding_torches/welding_torch/meshes/dae/Body24.dae" scale="0.01000 0.01000 0.01000" />
+			</geometry>
+			<material name="22">
+				<color rgba="0.80000 0.64627 0.39843 1.00000" />
+			</material>
+		</visual>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="-0.01459 -0.00427 0.02232" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/end_effectors/welding_torches/welding_torch/meshes/dae/Body25.dae" scale="0.01000 0.01000 0.01000" />
+			</geometry>
+			<material name="23">
+				<color rgba="0.23843 0.23843 0.23843 1.00000" />
+			</material>
+		</visual>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="-0.01459 -0.00427 0.02232" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/end_effectors/welding_torches/welding_torch/meshes/dae/Body26.dae" scale="0.01000 0.01000 0.01000" />
+			</geometry>
+			<material name="24">
+				<color rgba="0.62118 0.55843 0.51137 1.00000" />
+			</material>
+		</visual>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="-0.01459 -0.00427 0.02232" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/end_effectors/welding_torches/welding_torch/meshes/dae/Body27.dae" scale="0.01000 0.01000 0.01000" />
+			</geometry>
+			<material name="25">
+				<color rgba="0.67137 0.37333 0.29490 1.00000" />
+			</material>
+		</visual>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="-0.01459 -0.00427 0.02232" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/end_effectors/welding_torches/welding_torch/meshes/dae/Body3.dae" scale="0.01000 0.01000 0.01000" />
+			</geometry>
+			<material name="26">
+				<color rgba="0.62118 0.60549 0.58980 1.00000" />
+			</material>
+		</visual>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="-0.01459 -0.00427 0.02232" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/end_effectors/welding_torches/welding_torch/meshes/dae/Body4.dae" scale="0.01000 0.01000 0.01000" />
+			</geometry>
+			<material name="27">
+				<color rgba="0.80000 0.62431 0.52706 1.00000" />
+			</material>
+		</visual>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="-0.01459 -0.00427 0.02232" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/end_effectors/welding_torches/welding_torch/meshes/dae/Body5.dae" scale="0.01000 0.01000 0.01000" />
+			</geometry>
+			<material name="28">
+				<color rgba="1.00000 1.00000 1.00000 1.00000" />
+			</material>
+		</visual>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="-0.01459 -0.00427 0.02232" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/end_effectors/welding_torches/welding_torch/meshes/dae/Body6.dae" scale="0.01000 0.01000 0.01000" />
+			</geometry>
+			<material name="29">
+				<color rgba="0.16000 0.16000 0.16000 1.00000" />
+			</material>
+		</visual>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="-0.01459 -0.00427 0.02232" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/end_effectors/welding_torches/welding_torch/meshes/dae/Body7.dae" scale="0.01000 0.01000 0.01000" />
+			</geometry>
+			<material name="30">
+				<color rgba="0.80000 0.64627 0.39843 1.00000" />
+			</material>
+		</visual>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="-0.01459 -0.00427 0.02232" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/end_effectors/welding_torches/welding_torch/meshes/dae/Body8.dae" scale="0.01000 0.01000 0.01000" />
+			</geometry>
+			<material name="31">
+				<color rgba="0.80000 0.64627 0.39843 1.00000" />
+			</material>
+		</visual>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="-0.01459 -0.00427 0.02232" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/end_effectors/welding_torches/welding_torch/meshes/dae/Body9.dae" scale="0.01000 0.01000 0.01000" />
+			</geometry>
+			<material name="32">
+				<color rgba="0.80000 0.64627 0.39843 1.00000" />
+			</material>
+		</visual>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="-0.01408 -0.00470 0.02250" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/end_effectors/welding_torches/welding_torch/meshes/dae/Body1.001.dae" scale="1.00000 1.00000 1.00000" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="-0.01585 -0.00436 0.02222" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/end_effectors/welding_torches/welding_torch/meshes/dae/Body23.001.dae" scale="1.00000 1.00000 1.00000" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="-0.01479 -0.00422 0.02305" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/end_effectors/welding_torches/welding_torch/meshes/dae/Body24.001.dae" scale="1.00000 1.00000 1.00000" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="-0.01463 -0.00463 0.02662" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/end_effectors/welding_torches/welding_torch/meshes/dae/Body25.001.dae" scale="1.00000 1.00000 1.00000" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="-0.01408 -0.00373 0.02106" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/end_effectors/welding_torches/welding_torch/meshes/dae/Body3.001.dae" scale="1.00000 1.00000 1.00000" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="-0.01390 -0.00438 0.02201" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/end_effectors/welding_torches/welding_torch/meshes/dae/Body5.001.dae" scale="1.00000 1.00000 1.00000" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="-0.01448 -0.00416 0.02241" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/end_effectors/welding_torches/welding_torch/meshes/dae/Body6.001.dae" scale="1.00000 1.00000 1.00000" />
+			</geometry>
+		</collision>
+	</link>
+	<link name="ee_joint_arm">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="-0.01458 -0.00585 0.05244" />
+			<mass value="2.00000" />
+			<inertia ixx="0.00131" ixy="0" ixz="0" iyy="0.00131" iyz="0" izz="0.00247" />
+		</inertial>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="-0.01462 -0.00586 0.05218" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/end_effectors/welding_torches/welding_torch/meshes/dae/Body22.dae" scale="0.01000 0.01000 0.01000" />
+			</geometry>
+			<material name="33">
+				<color rgba="0.63373 0.65569 0.74667 1.00000" />
+			</material>
+		</visual>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="-0.01458 -0.00585 0.05244" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/end_effectors/welding_torches/welding_torch/meshes/dae/Body22.001.dae" scale="1.00000 1.00000 1.00000" />
+			</geometry>
+		</collision>
+	</link>
+	<link name="nozzle_tip">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="-0.01570 -0.30904 -0.22158" />
+			<mass value="2.00000" />
+			<inertia ixx="0.00118" ixy="0" ixz="0" iyy="0.00073" iyz="0" izz="0.00072" />
+		</inertial>
+		<visual>
+			<origin rpy="-0.92502 0.00000 0.00000" xyz="-0.01560 -0.30844 -0.21793" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/end_effectors/welding_torches/welding_torch/meshes/dae/Body28.dae" scale="0.01000 0.01000 0.01000" />
+			</geometry>
+			<material name="34">
+				<color rgba="0.67137 0.37333 0.29490 1.00000" />
+			</material>
+		</visual>
+		<collision>
+			<origin rpy="-0.92502 0.00000 0.00000" xyz="-0.01570 -0.30904 -0.22158" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/end_effectors/welding_torches/welding_torch/meshes/dae/Body28.001.dae" scale="1.00000 1.00000 1.00000" />
+			</geometry>
+		</collision>
+	</link>
+	<joint name="joint_a1" type="revolute">
+		<parent link="base_link" />
+		<child link="link_1" />
+		<dynamics damping="0.0" friction="0.0" />
+		<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.75000" />
+		<axis xyz="0.00000 0.00000 -1.00000" />
+	<limit effort="0.0" lower="-3.2288591161895095" upper="3.2288591161895095" velocity="1.9198621771937625" /></joint>
+	<joint name="joint_a2" type="revolute">
+		<parent link="link_1" />
+		<child link="link_2" />
+		<dynamics damping="0.0" friction="0.0" />
+		<origin rpy="0.00000 -0.00000 0.00000" xyz="0.35000 0.00000 0.00000" />
+		<axis xyz="0.00000 1.00000 0.00000" />
+	<limit effort="0.0" lower="-2.548180707911721" upper="0.0" velocity="1.9198621771937625" /></joint>
+	<joint name="joint_a3" type="revolute">
+		<parent link="link_2" />
+		<child link="link_3" />
+		<dynamics damping="0.0" friction="0.0" />
+		<origin rpy="0.00000 -0.00000 0.00000" xyz="1.25000 0.00000 0.00000" />
+		<axis xyz="0.00000 1.00000 0.00000" />
+	<limit effort="0.0" lower="-2.076941809873252" upper="2.705260340591211" velocity="1.7453292519943295" /></joint>
+	<joint name="joint_a4" type="revolute">
+		<parent link="link_3" />
+		<child link="link_4" />
+		<dynamics damping="0.0" friction="0.0" />
+		<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 -0.05500" />
+		<axis xyz="-1.00000 0.00000 0.00000" />
+	<limit effort="0.0" lower="-6.1086523819801535" upper="6.1086523819801535" velocity="2.9670597283903604" /></joint>
+	<joint name="joint_a5" type="revolute">
+		<parent link="link_4" />
+		<child link="link_5" />
+		<dynamics damping="0.0" friction="0.0" />
+		<origin rpy="0.00000 -0.00000 0.00000" xyz="1.10000 0.00000 0.00000" />
+		<axis xyz="0.00000 1.00000 0.00000" />
+	<limit effort="0.0" lower="-2.181661564992912" upper="2.181661564992912" velocity="2.9670597283903604" /></joint>
+	<joint name="joint_a6" type="revolute">
+		<parent link="link_5" />
+		<child link="link_6" />
+		<dynamics damping="0.0" friction="0.0" />
+		<origin rpy="0.00000 -0.00000 0.00000" xyz="0.23000 0.00000 0.00000" />
+		<axis xyz="-1.00000 0.00000 0.00000" />
+	<limit effort="0.0" lower="-6.1086523819801535" upper="6.1086523819801535" velocity="4.153883619746504" /></joint>
+	<joint name="joint_a6-tool0" type="fixed">
+		<parent link="link_6" />
+		<child link="tool0" />
+		<dynamics damping="1.0" friction="0.0001" />
+		<origin rpy="0.00000 1.57080 -0.00000" xyz="0.00000 0.00000 0.00000" />
+		<axis xyz="0.00000 0.00000 0.00000" />
+	</joint>
+	<joint name="base_link-base" type="fixed">
+		<parent link="base_link" />
+		<child link="base" />
+		<dynamics damping="1.0" friction="0.0001" />
+		<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+		<axis xyz="0.00000 0.00000 0.00000" />
+	</joint>
+	<joint name="joint_dummy1" type="fixed">
+		<parent link="link_6" />
+		<child link="root" />
+		<dynamics damping="1.0" friction="0.0001" />
+		<origin rpy="0.00000 1.57080 0.00000" xyz="0.00000 0.00000 0.00000" />
+		<axis xyz="0.00000 0.00000 1.00000" />
+	</joint>
+	<joint name="ee_joint_arm" type="fixed">
+		<parent link="root" />
+		<child link="ee_joint_arm" />
+		<dynamics damping="1.0" friction="0.0001" />
+		<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00003 0.00159 -0.02985" />
+		<axis xyz="0.00000 0.00000 0.00000" />
+	</joint>
+	<joint name="nozzle_tip" type="fixed">
+		<parent link="root" />
+		<child link="nozzle_tip" />
+		<dynamics damping="1.0" friction="0.0001" />
+		<origin rpy="0.92502 -0.00000 0.00000" xyz="0.00101 0.00731 0.39981" />
+		<axis xyz="0.00000 0.00000 0.00000" />
+	</joint>
+</robot>

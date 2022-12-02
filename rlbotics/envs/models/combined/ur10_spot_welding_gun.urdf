@@ -1,0 +1,326 @@
+<robot name="">
+	<link name="world">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+			<mass value="0.00000" />
+			<inertia ixx="0.00000" ixy="0" ixz="0" iyy="0.00000" iyz="0" izz="0.00000" />
+		</inertial>
+	</link>
+	<link name="base_link">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+			<mass value="4.00000" />
+			<inertia ixx="0.01063" ixy="0" ixz="0" iyy="0.00875" iyz="0" izz="0.01809" />
+		</inertial>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/robots/universal_robots/ur10/meshes/ur10/visual/base.dae" scale="1.00000 1.00000 1.00000" />
+			</geometry>
+			<material name="0">
+				<color rgba="0.70000 0.70000 0.70000 1.00000" />
+			</material>
+		</visual>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/robots/universal_robots/ur10/meshes/ur10/collision/base.stl" scale="1.00000 1.00000 1.00000" />
+			</geometry>
+		</collision>
+	</link>
+	<link name="shoulder_link">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+			<mass value="7.77800" />
+			<inertia ixx="0.03989" ixy="0" ixz="0" iyy="0.03770" iyz="0" izz="0.03412" />
+		</inertial>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/robots/universal_robots/ur10/meshes/ur10/visual/shoulder.dae" scale="1.00000 1.00000 1.00000" />
+			</geometry>
+			<material name="1">
+				<color rgba="0.70000 0.70000 0.70000 1.00000" />
+			</material>
+		</visual>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/robots/universal_robots/ur10/meshes/ur10/collision/shoulder.stl" scale="1.00000 1.00000 1.00000" />
+			</geometry>
+		</collision>
+	</link>
+	<link name="upper_arm_link">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 -0.04500 0.30600" />
+			<mass value="12.93000" />
+			<inertia ixx="0.65013" ixy="0" ixz="0" iyy="0.64040" iyz="0" izz="0.06264" />
+		</inertial>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/robots/universal_robots/ur10/meshes/ur10/visual/upperarm.dae" scale="1.00000 1.00000 1.00000" />
+			</geometry>
+			<material name="2">
+				<color rgba="0.70000 0.70000 0.70000 1.00000" />
+			</material>
+		</visual>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/robots/universal_robots/ur10/meshes/ur10/collision/upperarm.stl" scale="1.00000 1.00000 1.00000" />
+			</geometry>
+		</collision>
+	</link>
+	<link name="forearm_link">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.28615" />
+			<mass value="3.87000" />
+			<inertia ixx="0.15749" ixy="0" ixz="0" iyy="0.15609" iyz="0" izz="0.01167" />
+		</inertial>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/robots/universal_robots/ur10/meshes/ur10/visual/forearm.dae" scale="1.00000 1.00000 1.00000" />
+			</geometry>
+			<material name="3">
+				<color rgba="0.70000 0.70000 0.70000 1.00000" />
+			</material>
+		</visual>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/robots/universal_robots/ur10/meshes/ur10/collision/forearm.stl" scale="1.00000 1.00000 1.00000" />
+			</geometry>
+		</collision>
+	</link>
+	<link name="wrist_1_link">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.11490 0.00000" />
+			<mass value="1.96000" />
+			<inertia ixx="0.00438" ixy="0" ixz="0" iyy="0.00408" iyz="0" izz="0.00338" />
+		</inertial>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/robots/universal_robots/ur10/meshes/ur10/visual/wrist1.dae" scale="1.00000 1.00000 1.00000" />
+			</geometry>
+			<material name="4">
+				<color rgba="0.70000 0.70000 0.70000 1.00000" />
+			</material>
+		</visual>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/robots/universal_robots/ur10/meshes/ur10/collision/wrist1.stl" scale="1.00000 1.00000 1.00000" />
+			</geometry>
+		</collision>
+	</link>
+	<link name="wrist_2_link">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.11570" />
+			<mass value="1.96000" />
+			<inertia ixx="0.00438" ixy="0" ixz="0" iyy="0.00338" iyz="0" izz="0.00409" />
+		</inertial>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/robots/universal_robots/ur10/meshes/ur10/visual/wrist2.dae" scale="1.00000 1.00000 1.00000" />
+			</geometry>
+			<material name="5">
+				<color rgba="0.70000 0.70000 0.70000 1.00000" />
+			</material>
+		</visual>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/robots/universal_robots/ur10/meshes/ur10/collision/wrist2.stl" scale="1.00000 1.00000 1.00000" />
+			</geometry>
+		</collision>
+	</link>
+	<link name="wrist_3_link">
+		<inertial>
+			<origin rpy="1.57080 -0.00000 0.00000" xyz="0.00000 0.07695 0.00000" />
+			<mass value="0.20200" />
+			<inertia ixx="0.00018" ixy="0" ixz="0" iyy="0.00018" iyz="0" izz="0.00031" />
+		</inertial>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/robots/universal_robots/ur10/meshes/ur10/visual/wrist3.dae" scale="1.00000 1.00000 1.00000" />
+			</geometry>
+			<material name="6">
+				<color rgba="0.70000 0.70000 0.70000 1.00000" />
+			</material>
+		</visual>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 -0.00000" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/robots/universal_robots/ur10/meshes/ur10/collision/wrist3.stl" scale="1.00000 1.00000 1.00000" />
+			</geometry>
+		</collision>
+	</link>
+	<link name="ee_link">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+			<mass value="1.00000" />
+			<inertia ixx="0.00002" ixy="0" ixz="0" iyy="0.00002" iyz="0" izz="0.00002" />
+		</inertial>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="-0.01000 0.00000 0.00000" />
+			<geometry>
+				<box size="0.01000 0.01000 0.01000" />
+			</geometry>
+			<material name="7">
+				<color rgba="1.00000 1.00000 1.00000 1.00000" />
+			</material>
+		</visual>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="-0.01000 0.00000 0.00000" />
+			<geometry>
+				<box size="0.01000 0.01000 0.01000" />
+			</geometry>
+		</collision>
+	</link>
+	<link name="tool0">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+			<mass value="1.00000" />
+			<inertia ixx="0.00000" ixy="0" ixz="0" iyy="0.00000" iyz="0" izz="0.00000" />
+		</inertial>
+	</link>
+	<link name="base">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+			<mass value="1.00000" />
+			<inertia ixx="0.00000" ixy="0" ixz="0" iyy="0.00000" iyz="0" izz="0.00000" />
+		</inertial>
+	</link>
+	<link name="root">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.50570 -0.00054 0.18351" />
+			<mass value="2.00000" />
+			<inertia ixx="0.02909" ixy="0" ixz="0" iyy="0.13991" iyz="0" izz="0.11897" />
+		</inertial>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.39949 0.00000 0.14487" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/end_effectors/welding/spot_welding_gun/meshes/stl/RFC-22-G01 v2.stl" scale="0.00116 0.00116 0.00116" />
+			</geometry>
+			<material name="8">
+				<color rgba="0.67059 0.67059 0.67059 1.00000" />
+			</material>
+		</visual>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.39946 -0.00043 0.14496" />
+			<geometry>
+				<mesh filename="rlbotics/envs/models/end_effectors/welding/spot_welding_gun/meshes/stl/RFC-22-G01 v2.001.stl" scale="0.78991 0.78991 0.78991" />
+			</geometry>
+		</collision>
+	</link>
+	<link name="ee_joint_arm">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+			<mass value="0.00100" />
+			<inertia ixx="0.00000" ixy="0" ixz="0" iyy="0.00000" iyz="0" izz="0.00000" />
+		</inertial>
+	</link>
+	<link name="nozzle_tip">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+			<mass value="0.00100" />
+			<inertia ixx="0.00000" ixy="0" ixz="0" iyy="0.00000" iyz="0" izz="0.00000" />
+		</inertial>
+	</link>
+	<joint name="world_joint" type="fixed">
+		<parent link="world" />
+		<child link="base_link" />
+		<dynamics damping="1.0" friction="0.0001" />
+		<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+		<axis xyz="0.00000 0.00000 0.00000" />
+	</joint>
+	<joint name="shoulder_pan_joint" type="revolute">
+		<parent link="base_link" />
+		<child link="shoulder_link" />
+		<dynamics damping="0.0" friction="0.0" />
+		<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.12730" />
+		<axis xyz="0.00000 0.00000 1.00000" />
+	<limit effort="330.0" lower="-6.283185307179586" upper="6.283185307179586" velocity="2.16" /></joint>
+	<joint name="shoulder_lift_joint" type="revolute">
+		<parent link="shoulder_link" />
+		<child link="upper_arm_link" />
+		<dynamics damping="0.0" friction="0.0" />
+		<origin rpy="0.00000 1.57080 -0.00000" xyz="0.00000 0.22094 0.00000" />
+		<axis xyz="0.00000 1.00000 0.00000" />
+	<limit effort="330.0" lower="-6.283185307179586" upper="6.283185307179586" velocity="2.16" /></joint>
+	<joint name="elbow_joint" type="revolute">
+		<parent link="upper_arm_link" />
+		<child link="forearm_link" />
+		<dynamics damping="0.0" friction="0.0" />
+		<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 -0.17190 0.61200" />
+		<axis xyz="0.00000 1.00000 0.00000" />
+	<limit effort="150.0" lower="-3.141592653589793" upper="3.141592653589793" velocity="3.15" /></joint>
+	<joint name="wrist_1_joint" type="revolute">
+		<parent link="forearm_link" />
+		<child link="wrist_1_link" />
+		<dynamics damping="0.0" friction="0.0" />
+		<origin rpy="0.00000 1.57080 -0.00000" xyz="0.00000 0.00000 0.57230" />
+		<axis xyz="0.00000 1.00000 0.00000" />
+	<limit effort="54.0" lower="-6.283185307179586" upper="6.283185307179586" velocity="3.2" /></joint>
+	<joint name="wrist_2_joint" type="revolute">
+		<parent link="wrist_1_link" />
+		<child link="wrist_2_link" />
+		<dynamics damping="0.0" friction="0.0" />
+		<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.11490 0.00000" />
+		<axis xyz="0.00000 0.00000 1.00000" />
+	<limit effort="54.0" lower="-6.283185307179586" upper="6.283185307179586" velocity="3.2" /></joint>
+	<joint name="wrist_3_joint" type="revolute">
+		<parent link="wrist_2_link" />
+		<child link="wrist_3_link" />
+		<dynamics damping="0.0" friction="0.0" />
+		<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.11570" />
+		<axis xyz="0.00000 0.00000 -1.00000" />
+	<limit effort="54.0" lower="-6.283185307179586" upper="6.283185307179586" velocity="3.2" /></joint>
+	<joint name="ee_fixed_joint" type="fixed">
+		<parent link="wrist_3_link" />
+		<child link="ee_link" />
+		<dynamics damping="1.0" friction="0.0001" />
+		<origin rpy="0.00000 -0.00000 1.57080" xyz="0.00000 0.09220 0.00000" />
+		<axis xyz="0.00000 0.00000 0.00000" />
+	</joint>
+	<joint name="wrist_3_link-tool0_fixed_joint" type="fixed">
+		<parent link="wrist_3_link" />
+		<child link="tool0" />
+		<dynamics damping="1.0" friction="0.0001" />
+		<origin rpy="-1.57080 0.00000 0.00000" xyz="0.00000 0.09220 0.00000" />
+		<axis xyz="0.00000 0.00000 0.00000" />
+	</joint>
+	<joint name="base_link-base_fixed_joint" type="fixed">
+		<parent link="base_link" />
+		<child link="base" />
+		<dynamics damping="1.0" friction="0.0001" />
+		<origin rpy="0.00000 -0.00000 -3.14159" xyz="0.00000 0.00000 0.00000" />
+		<axis xyz="0.00000 0.00000 0.00000" />
+	</joint>
+	<joint name="joint_dummy1" type="fixed">
+		<parent link="ee_link" />
+		<child link="root" />
+		<dynamics damping="1.0" friction="0.0001" />
+		<origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.00000 0.00000" />
+		<axis xyz="0.00000 0.00000 1.00000" />
+	</joint>
+	<joint name="ee_joint_arm" type="fixed">
+		<parent link="root" />
+		<child link="ee_joint_arm" />
+		<dynamics damping="1.0" friction="0.0001" />
+		<origin rpy="0.00000 1.57080 -0.00000" xyz="-0.00372 -0.00266 0.00071" />
+		<axis xyz="0.00000 0.00000 0.00000" />
+	</joint>
+	<joint name="nozzle_tip" type="fixed">
+		<parent link="root" />
+		<child link="nozzle_tip" />
+		<dynamics damping="1.0" friction="0.0001" />
+		<origin rpy="0.00000 1.57080 -0.00000" xyz="0.67936 0.00000 0.00043" />
+		<axis xyz="0.00000 0.00000 0.00000" />
+	</joint>
+</robot>

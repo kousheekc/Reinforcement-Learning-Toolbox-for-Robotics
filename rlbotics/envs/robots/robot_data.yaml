@@ -1,0 +1,554 @@
+# All Angle Units in Radians. Precision: 2 digits
+# If parameter is null (None in python) take value from urdf instead
+
+# END-EFFECTORS
+panda_gripper:
+  location: pybullet_data
+  relative_path: null
+  joint_info:
+    dof: 2
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null
+
+robotiq_2f_85:
+  location: local
+  relative_path: end_effectors/robotiq/robotiq_2f_85/robotiq_2f_85.urdf
+  joint_info:
+    dof: 6
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null
+
+welding_torch:
+  location: local
+  relative_path: end_effectors/welding/welding_torch/welding_torch.urdf
+  joint_info:
+    dof: 0
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null
+
+spot_welding_gun:
+  location: local
+  relative_path: end_effectors/welding/spot_welding_gun/spot_welding_gun.urdf
+  joint_info:
+    dof: 0
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null
+
+# FRANKA EMIKA ROBOTS
+panda:
+  #  Datasheet specs taken from:
+  #  https://s3-eu-central-1.amazonaws.com/franka-de-uploads/uploads/Datasheet-EN.pdf
+  in_built_gripper: True
+  location: pybullet_data
+  relative_path: franka_panda/panda.urdf
+  joint_info:
+    dof: 7
+    joint_lower_limits: [-2.9, -1.76, -2.9, -3.07, -2.9, -0.02, -2.9]
+    joint_upper_limits: [2.9, 1.76, 2.9, -0.07, 2.9, 3.75, 2.9]
+    joint_ranges: [5.8, 3.52, 5.8, 3.0, 5.8, 3.77, 5.8]
+    joint_velocity_limits: [2.62, 2.62, 2.62, 2.62, 3.14, 3.14, 3.14]
+
+# KUKA ROBOTS
+kuka_iiwa7:
+  in_built_gripper: False
+  location: local
+  relative_path: robots/kuka/iiwa/iiwa7.urdf
+  joint_info:
+    dof: 7
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null
+
+kuka_iiwa14:
+  in_built_gripper: False
+  location: local
+  relative_path: robots/kuka/iiwa/iiwa14.urdf
+  joint_info:
+    dof: 7
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null
+
+kuka_kr3r540:
+  in_built_gripper: False
+  location: local
+  relative_path: robots/kuka/kr3/kuka_kr3r540.urdf
+  joint_info:
+    dof: 6
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null
+
+kuka_kr5_arc:
+  in_built_gripper: False
+  location: local
+  relative_path: robots/kuka/kr5/kuka_kr5_arc.urdf
+  joint_info:
+    dof: 6
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null
+
+kuka_kr6r700sixx:
+  in_built_gripper: False
+  location: local
+  relative_path: robots/kuka/kr6/kuka_kr6r700sixx.urdf
+  joint_info:
+    dof: 6
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null
+
+kuka_kr6r900sixx:
+  in_built_gripper: False
+  location: local
+  relative_path: robots/kuka/kr6/kuka_kr6r700sixx.urdf
+  joint_info:
+    dof: 6
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null
+
+kuka_kr10r1100sixx:
+  in_built_gripper: False
+  location: local
+  relative_path: robots/kuka/kr10/kr10r1100sixx.urdf
+  joint_info:
+    dof: 6
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null
+
+kuka_kr16_2:
+  in_built_gripper: False
+  location: local
+  relative_path: robots/kuka/kr16/kr16_2.urdf
+  joint_info:
+    dof: 6
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null
+
+kuka_kr120r2500pro:
+  in_built_gripper: False
+  location: local
+  relative_path: robots/kuka/kr120/kr120r2500pro.urdf
+  joint_info:
+    dof: 6
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null
+
+kuka_kr150_2:
+  in_built_gripper: False
+  location: local
+  relative_path: robots/kuka/kr150/kr150_2.urdf
+  joint_info:
+    dof: 6
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null
+
+kuka_kr210l150:
+  in_built_gripper: False
+  location: local
+  relative_path: robots/kuka/kr210/kr210l150.urdf
+  joint_info:
+    dof: 6
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null
+
+# ABB ROBOTS
+abb_irb2400:
+  in_built_gripper: False
+  location: local
+  relative_path: robots/abb/irb2400/irb2400.urdf
+  joint_info:
+    dof: 6
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null
+
+abb_irb4400l_30_243:
+  in_built_gripper: False
+  location: local
+  relative_path: robots/abb/irb4400/irb4400l_30_243.urdf
+  joint_info:
+    dof: 6
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null
+
+abb_irb5400:
+  in_built_gripper: False
+  location: local
+  relative_path: robots/abb/irb5400/irb5400.urdf
+  joint_info:
+    dof: 7
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null
+
+abb_irb6640:
+  in_built_gripper: False
+  location: local
+  relative_path: robots/abb/irb6600/irb6640.urdf
+  joint_info:
+    dof: 6
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null
+
+# UNIVERSAL ROBOTS
+ur10:
+  in_built_gripper: False
+  location: local
+  relative_path: robots/universal_robots/ur10/ur10.urdf
+  joint_info:
+    dof: 6
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null
+
+ur5:
+  in_built_gripper: False
+  location: local
+  relative_path: robots/universal_robots/ur5/ur5.urdf
+  joint_info:
+    dof: 6
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null
+
+ur3:
+  in_built_gripper: False
+  location: local
+  relative_path: robots/universal_robots/ur3/ur3.urdf
+  joint_info:
+    dof: 6
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null
+
+# FANUC
+fanuc_cr7ia:
+  # Datasheet specs taken from:
+  # https://www.robots.com/images/robots/Fanuc/Collaborative/FANUC_CR_7iA_Datasheet.pdf
+  in_built_gripper: False
+  location: local
+  relative_path: robots/fanuc/cr7ia/cr7ia.urdf
+  joint_info:
+    dof: 6
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: [4.36, 4.36, 4.36, 4.36, 4.36, 4.36]
+
+fanuc_cr7ial:
+  # Datasheet specs taken from:
+  # https://www.robots.com/images/robots/Fanuc/Collaborative/FANUC_CR_7iAL_Datasheet.pdf
+  in_built_gripper: False
+  location: local
+  relative_path: robots/fanuc/cr7ia/cr7ial.urdf
+  joint_info:
+    dof: 6
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: [4.36, 4.36, 4.36, 4.36, 4.36, 4.36]
+
+fanuc_cr35ia:
+  # Datasheet specs taken from:
+  # https://www.fanucamerica.com/cmsmedia/datasheets/CR-35iA%20Collaborative%20Robot_209.pdf
+  in_built_gripper: False
+  location: local
+  relative_path: robots/fanuc/cr35ia/cr35ia.urdf
+  joint_info:
+    dof: 6
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: [4.36, 4.36, 4.36, 4.36, 4.36, 4.36]
+
+fanuc_lrmate200i:
+  # https://www.robots.com/robots/fanuc-lr-mate-200i
+  in_built_gripper: False
+  location: local
+  relative_path: robots/fanuc/lrmate200i/lrmate200i.urdf
+  joint_info:
+    dof: 6
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null
+
+fanuc_lrmate200ib:
+  # https://www.robots.com/robots/fanuc-lr-mate-200ib
+  in_built_gripper: False
+  location: local
+  relative_path: robots/fanuc/lrmate200ib/lrmate200ib.urdf
+  joint_info:
+    dof: 6
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null
+
+fanuc_lrmate200ib3l:
+  in_built_gripper: False
+  location: local
+  relative_path: robots/fanuc/lrmate200ib/lrmate200ib3l.urdf
+  joint_info:
+    dof: 6
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null
+
+fanuc_lrmate200ic:
+  # https://www.robots.com/robots/fanuc-lr-mate-200ic
+  in_built_gripper: False
+  location: local
+  relative_path: robots/fanuc/lrmate200ic/lrmate200ic.urdf
+  joint_info:
+    dof: 6
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null
+
+fanuc_lrmate200ic5f:
+  in_built_gripper: False
+  location: local
+  relative_path: robots/fanuc/lrmate200ic/lrmate200ic5f.urdf
+  joint_info:
+    dof: 5
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null
+
+fanuc_lrmate200ic5h:
+  in_built_gripper: False
+  location: local
+  relative_path: robots/fanuc/lrmate200ic/lrmate200ic5h.urdf
+  joint_info:
+    dof: 5
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null
+
+fanuc_lrmate200ic5hs:
+  in_built_gripper: False
+  location: local
+  relative_path: robots/fanuc/lrmate200ic/lrmate200ic5hs.urdf
+  joint_info:
+    dof: 5
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null
+
+fanuc_lrmate200ic5l:
+  in_built_gripper: False
+  location: local
+  relative_path: robots/fanuc/lrmate200ic/lrmate200ic5l.urdf
+  joint_info:
+    dof: 6
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null
+
+fanuc_m6ib:
+  in_built_gripper: False
+  location: local
+  relative_path: robots/fanuc/m6ib/m6ib.urdf
+  joint_info:
+    dof: 6
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null
+
+fanuc_m6ib6s:
+  in_built_gripper: False
+  location: local
+  relative_path: robots/fanuc/m6ib/m6ib6s.urdf
+  joint_info:
+    dof: 6
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null
+
+fanuc_m10ia:
+  in_built_gripper: False
+  location: local
+  relative_path: robots/fanuc/m10ia/m10ia.urdf
+  joint_info:
+    dof: 6
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null
+
+fanuc_m10ia7l:
+  in_built_gripper: False
+  location: local
+  relative_path: robots/fanuc/m10ia/m10ia7l.urdf
+  joint_info:
+    dof: 6
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null
+
+fanuc_m16ib20:
+  in_built_gripper: False
+  location: local
+  relative_path: robots/fanuc/m16ib/m16ib20.urdf
+  joint_info:
+    dof: 6
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null
+
+fanuc_m20ia:
+  in_built_gripper: False
+  location: local
+  relative_path: robots/fanuc/m20ia/m20ia.urdf
+  joint_info:
+    dof: 6
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null
+
+fanuc_m20ia10l:
+  in_built_gripper: False
+  location: local
+  relative_path: robots/fanuc/m20ia/m20ia10l.urdf
+  joint_info:
+    dof: 6
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null
+
+fanuc_m20ib25:
+  in_built_gripper: False
+  location: local
+  relative_path: robots/fanuc/m20ib/m20ib25.urdf
+  joint_info:
+    dof: 6
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null
+
+fanuc_m430ia2f:
+  in_built_gripper: False
+  location: local
+  relative_path: robots/fanuc/m430ia/m430ia2f.urdf
+  joint_info:
+    dof: 5
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null
+
+fanuc_m430ia2p:
+  in_built_gripper: False
+  location: local
+  relative_path: robots/fanuc/m430ia/m430ia2p.urdf
+  joint_info:
+    dof: 6
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null
+
+fanuc_m710ic45m:
+  in_built_gripper: False
+  location: local
+  relative_path: robots/fanuc/m710ic/m710ic45m.urdf
+  joint_info:
+    dof: 6
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null
+
+fanuc_m710ic50:
+  in_built_gripper: False
+  location: local
+  relative_path: robots/fanuc/m710ic/m710ic50.urdf
+  joint_info:
+    dof: 6
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null
+
+fanuc_m900ia260l:
+  in_built_gripper: False
+  location: local
+  relative_path: robots/fanuc/m900ia/m900ia260l.urdf
+  joint_info:
+    dof: 6
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null
+
+fanuc_m900ib700:
+  in_built_gripper: False
+  location: local
+  relative_path: robots/fanuc/m900ib/m900ib700.urdf
+  joint_info:
+    dof: 6
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null
+
+fanuc_r1000ia80f:
+  in_built_gripper: False
+  location: local
+  relative_path: robots/fanuc/r1000ia/r1000ia80f.urdf
+  joint_info:
+    dof: 6
+    joint_lower_limits: null
+    joint_upper_limits: null
+    joint_ranges: null
+    joint_velocity_limits: null

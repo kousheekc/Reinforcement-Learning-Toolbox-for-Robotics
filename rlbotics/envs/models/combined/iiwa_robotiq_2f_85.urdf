@@ -1,0 +1,547 @@
+<?xml version="0.0" ?>
+<robot name="">
+	<link name="lbr_iiwa_link_0">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="-0.10000 0.00000 0.07000"/>
+			<mass value="0.10000"/>
+			<inertia ixx="0.00074" ixy="0" ixz="0" iyy="0.00080" iyz="0" izz="0.00109"/>
+		</inertial>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<geometry>
+				<mesh filename="C:\Users\kousheek\AppData\Local\Programs\Python\Python38\lib\site-packages\pybullet_data/kuka_iiwa/meshes/link_0.stl" scale="1.00000 1.00000 1.00000"/>
+			</geometry>
+			<material name="mat_-1_0">
+				<color rgba="0.20000 0.20000 0.20000 1.00000" />
+			</material>
+		</visual>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<geometry>
+				<mesh filename="C:\Users\kousheek\AppData\Local\Programs\Python\Python38\lib\site-packages\pybullet_data/kuka_iiwa/meshes/link_0.stl" scale="1.00000 1.00000 1.00000"/>
+			</geometry>
+		</collision>
+	</link>
+	<link name="lbr_iiwa_link_1">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 -0.03000 0.12000"/>
+			<mass value="4.00000"/>
+			<inertia ixx="0.04509" ixy="0" ixz="0" iyy="0.04124" iyz="0" izz="0.02474"/>
+		</inertial>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<geometry>
+				<mesh filename="C:\Users\kousheek\AppData\Local\Programs\Python\Python38\lib\site-packages\pybullet_data/kuka_iiwa/meshes/link_1.stl" scale="1.00000 1.00000 1.00000"/>
+			</geometry>
+			<material name="mat_0_0">
+				<color rgba="0.50000 0.70000 1.00000 1.00000" />
+			</material>
+		</visual>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<geometry>
+				<mesh filename="C:\Users\kousheek\AppData\Local\Programs\Python\Python38\lib\site-packages\pybullet_data/kuka_iiwa/meshes/link_1.stl" scale="1.00000 1.00000 1.00000"/>
+			</geometry>
+		</collision>
+	</link>
+	<link name="lbr_iiwa_link_2">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00030 0.05900 0.04200"/>
+			<mass value="4.00000"/>
+			<inertia ixx="0.04343" ixy="0" ixz="0" iyy="0.02460" iyz="0" izz="0.03965"/>
+		</inertial>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<geometry>
+				<mesh filename="C:\Users\kousheek\AppData\Local\Programs\Python\Python38\lib\site-packages\pybullet_data/kuka_iiwa/meshes/link_2.stl" scale="1.00000 1.00000 1.00000"/>
+			</geometry>
+			<material name="mat_1_0">
+				<color rgba="0.50000 0.70000 1.00000 1.00000" />
+			</material>
+		</visual>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<geometry>
+				<mesh filename="C:\Users\kousheek\AppData\Local\Programs\Python\Python38\lib\site-packages\pybullet_data/kuka_iiwa/meshes/link_2.stl" scale="1.00000 1.00000 1.00000"/>
+			</geometry>
+		</collision>
+	</link>
+	<link name="lbr_iiwa_link_3">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.03000 0.13000"/>
+			<mass value="3.00000"/>
+			<inertia ixx="0.03130" ixy="0" ixz="0" iyy="0.02744" iyz="0" izz="0.01394"/>
+		</inertial>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<geometry>
+				<mesh filename="C:\Users\kousheek\AppData\Local\Programs\Python\Python38\lib\site-packages\pybullet_data/kuka_iiwa/meshes/link_3.stl" scale="1.00000 1.00000 1.00000"/>
+			</geometry>
+			<material name="mat_2_0">
+				<color rgba="1.00000 0.42353 0.03922 1.00000" />
+			</material>
+		</visual>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<geometry>
+				<mesh filename="C:\Users\kousheek\AppData\Local\Programs\Python\Python38\lib\site-packages\pybullet_data/kuka_iiwa/meshes/link_3.stl" scale="1.00000 1.00000 1.00000"/>
+			</geometry>
+		</collision>
+	</link>
+	<link name="lbr_iiwa_link_4">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.06700 0.03400"/>
+			<mass value="2.70000"/>
+			<inertia ixx="0.02302" ixy="0" ixz="0" iyy="0.01255" iyz="0" izz="0.01957"/>
+		</inertial>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<geometry>
+				<mesh filename="C:\Users\kousheek\AppData\Local\Programs\Python\Python38\lib\site-packages\pybullet_data/kuka_iiwa/meshes/link_4.stl" scale="1.00000 1.00000 1.00000"/>
+			</geometry>
+			<material name="mat_3_0">
+				<color rgba="0.50000 0.70000 1.00000 1.00000" />
+			</material>
+		</visual>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<geometry>
+				<mesh filename="C:\Users\kousheek\AppData\Local\Programs\Python\Python38\lib\site-packages\pybullet_data/kuka_iiwa/meshes/link_4.stl" scale="1.00000 1.00000 1.00000"/>
+			</geometry>
+		</collision>
+	</link>
+	<link name="lbr_iiwa_link_5">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00010 0.02100 0.07600"/>
+			<mass value="1.70000"/>
+			<inertia ixx="0.01559" ixy="0" ixz="0" iyy="0.01421" iyz="0" izz="0.00710"/>
+		</inertial>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<geometry>
+				<mesh filename="C:\Users\kousheek\AppData\Local\Programs\Python\Python38\lib\site-packages\pybullet_data/kuka_iiwa/meshes/link_5.stl" scale="1.00000 1.00000 1.00000"/>
+			</geometry>
+			<material name="mat_4_0">
+				<color rgba="0.50000 0.70000 1.00000 1.00000" />
+			</material>
+		</visual>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<geometry>
+				<mesh filename="C:\Users\kousheek\AppData\Local\Programs\Python\Python38\lib\site-packages\pybullet_data/kuka_iiwa/meshes/link_5.stl" scale="1.00000 1.00000 1.00000"/>
+			</geometry>
+		</collision>
+	</link>
+	<link name="lbr_iiwa_link_6">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00060 0.00040"/>
+			<mass value="1.80000"/>
+			<inertia ixx="0.00761" ixy="0" ixz="0" iyy="0.00597" iyz="0" izz="0.00738"/>
+		</inertial>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<geometry>
+				<mesh filename="C:\Users\kousheek\AppData\Local\Programs\Python\Python38\lib\site-packages\pybullet_data/kuka_iiwa/meshes/link_6.stl" scale="1.00000 1.00000 1.00000"/>
+			</geometry>
+			<material name="mat_5_0">
+				<color rgba="1.00000 0.42353 0.03922 1.00000" />
+			</material>
+		</visual>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<geometry>
+				<mesh filename="C:\Users\kousheek\AppData\Local\Programs\Python\Python38\lib\site-packages\pybullet_data/kuka_iiwa/meshes/link_6.stl" scale="1.00000 1.00000 1.00000"/>
+			</geometry>
+		</collision>
+	</link>
+	<link name="lbr_iiwa_link_7">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.02000"/>
+			<mass value="0.30000"/>
+			<inertia ixx="0.00039" ixy="0" ixz="0" iyy="0.00040" iyz="0" izz="0.00060"/>
+		</inertial>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<geometry>
+				<mesh filename="C:\Users\kousheek\AppData\Local\Programs\Python\Python38\lib\site-packages\pybullet_data/kuka_iiwa/meshes/link_7.stl" scale="1.00000 1.00000 1.00000"/>
+			</geometry>
+			<material name="mat_6_0">
+				<color rgba="0.20000 0.20000 0.20000 1.00000" />
+			</material>
+		</visual>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<geometry>
+				<mesh filename="C:\Users\kousheek\AppData\Local\Programs\Python\Python38\lib\site-packages\pybullet_data/kuka_iiwa/meshes/link_7.stl" scale="1.00000 1.00000 1.00000"/>
+			</geometry>
+		</collision>
+	</link>
+	<link name="robotiq_arg2f_base_link">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 -0.00000 0.03145"/>
+			<mass value="0.22652"/>
+			<inertia ixx="0.00034" ixy="0" ixz="0" iyy="0.00031" iyz="0" izz="0.00028"/>
+		</inertial>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<geometry>
+				<mesh filename="rlbotics\envs\models\grippers/robotiq/robotiq_2f_85/meshes/visual/robotiq_arg2f_85_base_link.dae" scale="0.00100 0.00100 0.00100"/>
+			</geometry>
+			<material name="mat_-1_0">
+				<color rgba="0.10000 0.10000 0.10000 1.00000" />
+			</material>
+		</visual>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<geometry>
+				<mesh filename="rlbotics\envs\models\grippers/robotiq/robotiq_2f_85/meshes/collision/robotiq_arg2f_base_link.stl" scale="1.00000 1.00000 1.00000"/>
+			</geometry>
+		</collision>
+	</link>
+	<link name="left_outer_knuckle">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<mass value="1.00000"/>
+			<inertia ixx="0.00030" ixy="0" ixz="0" iyy="0.00014" iyz="0" izz="0.00030"/>
+		</inertial>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<geometry>
+				<mesh filename="rlbotics\envs\models\grippers/robotiq/robotiq_2f_85/meshes/visual/robotiq_arg2f_85_outer_knuckle.dae" scale="0.00100 0.00100 0.00100"/>
+			</geometry>
+			<material name="mat_0_0">
+				<color rgba="0.10000 0.10000 0.10000 1.00000" />
+			</material>
+		</visual>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<geometry>
+				<mesh filename="rlbotics\envs\models\grippers/robotiq/robotiq_2f_85/meshes/collision/robotiq_arg2f_85_outer_knuckle.dae" scale="0.00100 0.00100 0.00100"/>
+			</geometry>
+		</collision>
+	</link>
+	<link name="left_outer_finger">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<mass value="1.00000"/>
+			<inertia ixx="0.00040" ixy="0" ixz="0" iyy="0.00044" iyz="0" izz="0.00014"/>
+		</inertial>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<geometry>
+				<mesh filename="rlbotics\envs\models\grippers/robotiq/robotiq_2f_85/meshes/visual/robotiq_arg2f_85_outer_finger.dae" scale="0.00100 0.00100 0.00100"/>
+			</geometry>
+			<material name="mat_1_0">
+				<color rgba="0.10000 0.10000 0.10000 1.00000" />
+			</material>
+		</visual>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<geometry>
+				<mesh filename="rlbotics\envs\models\grippers/robotiq/robotiq_2f_85/meshes/collision/robotiq_arg2f_85_outer_finger.dae" scale="0.00100 0.00100 0.00100"/>
+			</geometry>
+		</collision>
+	</link>
+	<link name="left_inner_finger">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<mass value="1.00000"/>
+			<inertia ixx="0.00037" ixy="0" ixz="0" iyy="0.00030" iyz="0" izz="0.00014"/>
+		</inertial>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<geometry>
+				<mesh filename="rlbotics\envs\models\grippers/robotiq/robotiq_2f_85/meshes/visual/robotiq_arg2f_85_inner_finger.dae" scale="0.00100 0.00100 0.00100"/>
+			</geometry>
+			<material name="mat_2_0">
+				<color rgba="0.10000 0.10000 0.10000 1.00000" />
+			</material>
+		</visual>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<geometry>
+				<mesh filename="rlbotics\envs\models\grippers/robotiq/robotiq_2f_85/meshes/collision/robotiq_arg2f_85_inner_finger.dae" scale="0.00100 0.00100 0.00100"/>
+			</geometry>
+		</collision>
+	</link>
+	<link name="left_inner_finger_pad">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<mass value="1.00000"/>
+			<inertia ixx="0.00012" ixy="0" ixz="0" iyy="0.00016" iyz="0" izz="0.00004"/>
+		</inertial>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<geometry>
+				<box size="0.02200 0.00635 0.03750"/>
+			</geometry>
+			<material name="mat_3_0">
+				<color rgba="0.10000 0.10000 0.10000 1.00000" />
+			</material>
+		</visual>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<geometry>
+				<box size="0.02200 0.00635 0.03750"/>
+			</geometry>
+		</collision>
+	</link>
+	<link name="left_inner_knuckle">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<mass value="1.00000"/>
+			<inertia ixx="0.00057" ixy="0" ixz="0" iyy="0.00048" iyz="0" izz="0.00042"/>
+		</inertial>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<geometry>
+				<mesh filename="rlbotics\envs\models\grippers/robotiq/robotiq_2f_85/meshes/visual/robotiq_arg2f_85_inner_knuckle.dae" scale="0.00100 0.00100 0.00100"/>
+			</geometry>
+			<material name="mat_4_0">
+				<color rgba="0.10000 0.10000 0.10000 1.00000" />
+			</material>
+		</visual>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<geometry>
+				<mesh filename="rlbotics\envs\models\grippers/robotiq/robotiq_2f_85/meshes/collision/robotiq_arg2f_85_inner_knuckle.dae" scale="0.00100 0.00100 0.00100"/>
+			</geometry>
+		</collision>
+	</link>
+	<link name="right_outer_knuckle">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<mass value="1.00000"/>
+			<inertia ixx="0.00030" ixy="0" ixz="0" iyy="0.00014" iyz="0" izz="0.00030"/>
+		</inertial>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<geometry>
+				<mesh filename="rlbotics\envs\models\grippers/robotiq/robotiq_2f_85/meshes/visual/robotiq_arg2f_85_outer_knuckle.dae" scale="0.00100 0.00100 0.00100"/>
+			</geometry>
+			<material name="mat_5_0">
+				<color rgba="0.10000 0.10000 0.10000 1.00000" />
+			</material>
+		</visual>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<geometry>
+				<mesh filename="rlbotics\envs\models\grippers/robotiq/robotiq_2f_85/meshes/collision/robotiq_arg2f_85_outer_knuckle.dae" scale="0.00100 0.00100 0.00100"/>
+			</geometry>
+		</collision>
+	</link>
+	<link name="right_outer_finger">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<mass value="1.00000"/>
+			<inertia ixx="0.00040" ixy="0" ixz="0" iyy="0.00044" iyz="0" izz="0.00014"/>
+		</inertial>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<geometry>
+				<mesh filename="rlbotics\envs\models\grippers/robotiq/robotiq_2f_85/meshes/visual/robotiq_arg2f_85_outer_finger.dae" scale="0.00100 0.00100 0.00100"/>
+			</geometry>
+			<material name="mat_6_0">
+				<color rgba="0.10000 0.10000 0.10000 1.00000" />
+			</material>
+		</visual>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<geometry>
+				<mesh filename="rlbotics\envs\models\grippers/robotiq/robotiq_2f_85/meshes/collision/robotiq_arg2f_85_outer_finger.dae" scale="0.00100 0.00100 0.00100"/>
+			</geometry>
+		</collision>
+	</link>
+	<link name="right_inner_finger">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<mass value="1.00000"/>
+			<inertia ixx="0.00037" ixy="0" ixz="0" iyy="0.00030" iyz="0" izz="0.00014"/>
+		</inertial>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<geometry>
+				<mesh filename="rlbotics\envs\models\grippers/robotiq/robotiq_2f_85/meshes/visual/robotiq_arg2f_85_inner_finger.dae" scale="0.00100 0.00100 0.00100"/>
+			</geometry>
+			<material name="mat_7_0">
+				<color rgba="0.10000 0.10000 0.10000 1.00000" />
+			</material>
+		</visual>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<geometry>
+				<mesh filename="rlbotics\envs\models\grippers/robotiq/robotiq_2f_85/meshes/collision/robotiq_arg2f_85_inner_finger.dae" scale="0.00100 0.00100 0.00100"/>
+			</geometry>
+		</collision>
+	</link>
+	<link name="right_inner_finger_pad">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<mass value="1.00000"/>
+			<inertia ixx="0.00012" ixy="0" ixz="0" iyy="0.00016" iyz="0" izz="0.00004"/>
+		</inertial>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<geometry>
+				<box size="0.02200 0.00635 0.03750"/>
+			</geometry>
+			<material name="mat_8_0">
+				<color rgba="0.10000 0.10000 0.10000 1.00000" />
+			</material>
+		</visual>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<geometry>
+				<box size="0.02200 0.00635 0.03750"/>
+			</geometry>
+		</collision>
+	</link>
+	<link name="right_inner_knuckle">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<mass value="1.00000"/>
+			<inertia ixx="0.00057" ixy="0" ixz="0" iyy="0.00048" iyz="0" izz="0.00042"/>
+		</inertial>
+		<visual>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<geometry>
+				<mesh filename="rlbotics\envs\models\grippers/robotiq/robotiq_2f_85/meshes/visual/robotiq_arg2f_85_inner_knuckle.dae" scale="0.00100 0.00100 0.00100"/>
+			</geometry>
+			<material name="mat_9_0">
+				<color rgba="0.10000 0.10000 0.10000 1.00000" />
+			</material>
+		</visual>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<geometry>
+				<mesh filename="rlbotics\envs\models\grippers/robotiq/robotiq_2f_85/meshes/collision/robotiq_arg2f_85_inner_knuckle.dae" scale="0.00100 0.00100 0.00100"/>
+			</geometry>
+		</collision>
+	</link>
+	<joint name="lbr_iiwa_joint_1" type="continuous">
+		<parent link="lbr_iiwa_link_0"/>
+		<child link="lbr_iiwa_link_1"/>
+		<dynamics damping="1.0" friction="0.0001"/>
+		<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.15750"/>
+		<axis xyz="0.00000 0.00000 1.00000"/>
+	</joint>
+	<joint name="lbr_iiwa_joint_2" type="continuous">
+		<parent link="lbr_iiwa_link_1"/>
+		<child link="lbr_iiwa_link_2"/>
+		<dynamics damping="1.0" friction="0.0001"/>
+		<origin rpy="1.57080 -0.00000 -3.14159" xyz="0.00000 0.00000 0.20250"/>
+		<axis xyz="0.00000 0.00000 1.00000"/>
+	</joint>
+	<joint name="lbr_iiwa_joint_3" type="continuous">
+		<parent link="lbr_iiwa_link_2"/>
+		<child link="lbr_iiwa_link_3"/>
+		<dynamics damping="1.0" friction="0.0001"/>
+		<origin rpy="1.57080 -0.00000 -3.14159" xyz="0.00000 0.20450 0.00000"/>
+		<axis xyz="0.00000 0.00000 1.00000"/>
+	</joint>
+	<joint name="lbr_iiwa_joint_4" type="continuous">
+		<parent link="lbr_iiwa_link_3"/>
+		<child link="lbr_iiwa_link_4"/>
+		<dynamics damping="1.0" friction="0.0001"/>
+		<origin rpy="1.57080 -0.00000 0.00000" xyz="0.00000 0.00000 0.21550"/>
+		<axis xyz="0.00000 0.00000 1.00000"/>
+	</joint>
+	<joint name="lbr_iiwa_joint_5" type="continuous">
+		<parent link="lbr_iiwa_link_4"/>
+		<child link="lbr_iiwa_link_5"/>
+		<dynamics damping="1.0" friction="0.0001"/>
+		<origin rpy="1.57080 -0.00000 3.14159" xyz="0.00000 0.18450 0.00000"/>
+		<axis xyz="0.00000 0.00000 1.00000"/>
+	</joint>
+	<joint name="lbr_iiwa_joint_6" type="continuous">
+		<parent link="lbr_iiwa_link_5"/>
+		<child link="lbr_iiwa_link_6"/>
+		<dynamics damping="1.0" friction="0.0001"/>
+		<origin rpy="1.57080 -0.00000 0.00000" xyz="0.00000 0.00000 0.21550"/>
+		<axis xyz="0.00000 0.00000 1.00000"/>
+	</joint>
+	<joint name="lbr_iiwa_joint_7" type="continuous">
+		<parent link="lbr_iiwa_link_6"/>
+		<child link="lbr_iiwa_link_7"/>
+		<dynamics damping="1.0" friction="0.0001"/>
+		<origin rpy="1.57080 -0.00000 3.14159" xyz="0.00000 0.08100 0.00000"/>
+		<axis xyz="0.00000 0.00000 1.00000"/>
+	</joint>
+	<joint name="joint_dummy1" type="fixed">
+		<parent link="robotiq_arg2f_base_link"/>
+		<child link="robotiq_arg2f_base_link"/>
+		<dynamics damping="1.0" friction="0.0001"/>
+		<origin rpy="0.00000 1.57080 0.00000" xyz="0.00000 0.00000 0.00000"/>
+		<axis xyz="0.00000 0.00000 1.00000"/>
+	</joint>
+	<joint name="finger_joint" type="continuous">
+		<parent link="robotiq_arg2f_base_link"/>
+		<child link="left_outer_knuckle"/>
+		<dynamics damping="1.0" friction="0.0001"/>
+		<origin rpy="0.00000 -0.00000 3.14159" xyz="0.00000 -0.03060 0.05490"/>
+		<axis xyz="1.00000 0.00000 0.00000"/>
+	</joint>
+	<joint name="left_outer_finger_joint" type="fixed">
+		<parent link="left_outer_knuckle"/>
+		<child link="left_outer_finger"/>
+		<dynamics damping="1.0" friction="0.0001"/>
+		<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.03150 -0.00410"/>
+		<axis xyz="0.00000 0.00000 0.00000"/>
+	</joint>
+	<joint name="left_inner_finger_joint" type="continuous">
+		<parent link="left_outer_finger"/>
+		<child link="left_inner_finger"/>
+		<dynamics damping="1.0" friction="0.0001"/>
+		<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00610 0.04710"/>
+		<axis xyz="1.00000 0.00000 0.00000"/>
+	</joint>
+	<joint name="left_inner_finger_pad_joint" type="fixed">
+		<parent link="left_inner_finger"/>
+		<child link="left_inner_finger_pad"/>
+		<dynamics damping="1.0" friction="0.0001"/>
+		<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 -0.02202 0.03242"/>
+		<axis xyz="0.00000 0.00000 0.00000"/>
+	</joint>
+	<joint name="left_inner_knuckle_joint" type="continuous">
+		<parent link="robotiq_arg2f_base_link"/>
+		<child link="left_inner_knuckle"/>
+		<dynamics damping="1.0" friction="0.0001"/>
+		<origin rpy="0.00000 -0.00000 3.14159" xyz="0.00000 -0.01270 0.06142"/>
+		<axis xyz="1.00000 0.00000 0.00000"/>
+	</joint>
+	<joint name="right_outer_knuckle_joint" type="continuous">
+		<parent link="robotiq_arg2f_base_link"/>
+		<child link="right_outer_knuckle"/>
+		<dynamics damping="1.0" friction="0.0001"/>
+		<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.03060 0.05490"/>
+		<axis xyz="1.00000 0.00000 0.00000"/>
+	</joint>
+	<joint name="right_outer_finger_joint" type="fixed">
+		<parent link="right_outer_knuckle"/>
+		<child link="right_outer_finger"/>
+		<dynamics damping="1.0" friction="0.0001"/>
+		<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.03150 -0.00410"/>
+		<axis xyz="0.00000 0.00000 0.00000"/>
+	</joint>
+	<joint name="right_inner_finger_joint" type="continuous">
+		<parent link="right_outer_finger"/>
+		<child link="right_inner_finger"/>
+		<dynamics damping="1.0" friction="0.0001"/>
+		<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00610 0.04710"/>
+		<axis xyz="1.00000 0.00000 0.00000"/>
+	</joint>
+	<joint name="right_inner_finger_pad_joint" type="fixed">
+		<parent link="right_inner_finger"/>
+		<child link="right_inner_finger_pad"/>
+		<dynamics damping="1.0" friction="0.0001"/>
+		<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 -0.02202 0.03242"/>
+		<axis xyz="0.00000 0.00000 0.00000"/>
+	</joint>
+	<joint name="right_inner_knuckle_joint" type="continuous">
+		<parent link="robotiq_arg2f_base_link"/>
+		<child link="right_inner_knuckle"/>
+		<dynamics damping="1.0" friction="0.0001"/>
+		<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.01270 0.06142"/>
+		<axis xyz="1.00000 0.00000 0.00000"/>
+	</joint>
+</robot>

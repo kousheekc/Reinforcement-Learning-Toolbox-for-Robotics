@@ -1,0 +1,335 @@
+<?xml version="1.0"?>
+<!-- created with Phobos 1.0.1 "Capricious Choutengan" -->
+  <robot name="welding_torch">
+
+    <link name="ee_joint_arm">
+      <inertial>
+        <origin xyz="-0.01458 -0.00585 0.05244" rpy="0 0 0"/>
+        <mass value="2.0"/>
+        <inertia ixx="0.00327" ixy="0.00014" ixz="0.00094" iyy="0.00162" iyz="-0.00039" izz="0.00356"/>
+      </inertial>
+      <visual name="Body22">
+        <origin xyz="-0.02797 -0.01121 0.09982" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="meshes/stl/Body22.stl" scale="0.01913 0.01913 0.01913"/>
+        </geometry>
+        <material name="Opaque(202,209,238)"/>
+      </visual>
+      <collision name="Body22.000">
+        <origin xyz="-0.02788 -0.01119 0.10032" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="meshes/stl/Body22.001.stl" scale="1.91308 1.91308 1.91308"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="nozzle_tip">
+      <inertial>
+        <origin xyz="-0.0157 -0.30904 -0.22158" rpy="0 0 0"/>
+        <mass value="2.0"/>
+        <inertia ixx="0.16219" ixy="0.0066" ixz="0.00243" iyy="0.15565" iyz="0.03243" izz="0.00723"/>
+      </inertial>
+      <visual name="Body28">
+        <origin xyz="-0.02985 -0.59008 -0.41691" rpy="-0.92502 0 0"/>
+        <geometry>
+          <mesh filename="meshes/stl/Body28.stl" scale="0.01913 0.01913 0.01913"/>
+        </geometry>
+        <material name="Opaque(214,119,94)"/>
+      </visual>
+      <collision name="Body28.000">
+        <origin xyz="-0.03004 -0.59122 -0.4239" rpy="-0.92502 0 0"/>
+        <geometry>
+          <mesh filename="meshes/stl/Body28.001.stl" scale="1.91308 1.91308 1.91308"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="root">
+      <inertial>
+        <origin xyz="-0.01448 -0.00427 0.02204" rpy="0 0 0"/>
+        <mass value="10.0"/>
+        <inertia ixx="0.03949" ixy="0.00443" ixz="-0.00364" iyy="0.02609" iyz="0.01455" izz="0.01959"/>
+      </inertial>
+      <visual name="Body1">
+        <origin xyz="-0.02792 -0.00816 0.04271" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="meshes/stl/Body1.stl" scale="0.01913 0.01913 0.01913"/>
+        </geometry>
+        <material name="Opaque(255,255,255)"/>
+      </visual>
+      <visual name="Body10">
+        <origin xyz="-0.02792 -0.00816 0.04271" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="meshes/stl/Body10.stl" scale="0.01913 0.01913 0.01913"/>
+        </geometry>
+        <material name="Opaque(255,206,127)"/>
+      </visual>
+      <visual name="Body11">
+        <origin xyz="-0.02792 -0.00816 0.04271" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="meshes/stl/Body11.stl" scale="0.01913 0.01913 0.01913"/>
+        </geometry>
+        <material name="Opaque(255,206,127)"/>
+      </visual>
+      <visual name="Body12">
+        <origin xyz="-0.02792 -0.00816 0.04271" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="meshes/stl/Body12.stl" scale="0.01913 0.01913 0.01913"/>
+        </geometry>
+        <material name="Opaque(202,209,238)"/>
+      </visual>
+      <visual name="Body13">
+        <origin xyz="-0.02792 -0.00816 0.04271" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="meshes/stl/Body13.stl" scale="0.01913 0.01913 0.01913"/>
+        </geometry>
+        <material name="Opaque(229,234,237)"/>
+      </visual>
+      <visual name="Body14">
+        <origin xyz="-0.02792 -0.00816 0.04271" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="meshes/stl/Body14.stl" scale="0.01913 0.01913 0.01913"/>
+        </geometry>
+        <material name="Opaque(202,209,238)"/>
+      </visual>
+      <visual name="Body15">
+        <origin xyz="-0.02792 -0.00816 0.04271" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="meshes/stl/Body15.stl" scale="0.01913 0.01913 0.01913"/>
+        </geometry>
+        <material name="Opaque(255,206,127)"/>
+      </visual>
+      <visual name="Body16">
+        <origin xyz="-0.02792 -0.00816 0.04271" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="meshes/stl/Body16.stl" scale="0.01913 0.01913 0.01913"/>
+        </geometry>
+        <material name="Opaque(202,209,238)"/>
+      </visual>
+      <visual name="Body17">
+        <origin xyz="-0.02792 -0.00816 0.04271" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="meshes/stl/Body17.stl" scale="0.01913 0.01913 0.01913"/>
+        </geometry>
+        <material name="Opaque(202,209,238)"/>
+      </visual>
+      <visual name="Body18">
+        <origin xyz="-0.02792 -0.00816 0.04271" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="meshes/stl/Body18.stl" scale="0.01913 0.01913 0.01913"/>
+        </geometry>
+        <material name="Opaque(202,209,238)"/>
+      </visual>
+      <visual name="Body19">
+        <origin xyz="-0.02792 -0.00816 0.04271" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="meshes/stl/Body19.stl" scale="0.01913 0.01913 0.01913"/>
+        </geometry>
+        <material name="Opaque(202,209,238)"/>
+      </visual>
+      <visual name="Body2">
+        <origin xyz="-0.02792 -0.00816 0.04271" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="meshes/stl/Body2.stl" scale="0.01913 0.01913 0.01913"/>
+        </geometry>
+        <material name="Opaque(175,155,135)"/>
+      </visual>
+      <visual name="Body20">
+        <origin xyz="-0.02792 -0.00816 0.04271" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="meshes/stl/Body20.stl" scale="0.01913 0.01913 0.01913"/>
+        </geometry>
+        <material name="Opaque(202,209,238)"/>
+      </visual>
+      <visual name="Body21">
+        <origin xyz="-0.02792 -0.00816 0.04271" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="meshes/stl/Body21.stl" scale="0.01913 0.01913 0.01913"/>
+        </geometry>
+        <material name="Opaque(255,206,127)"/>
+      </visual>
+      <visual name="Body23">
+        <origin xyz="-0.02792 -0.00816 0.04271" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="meshes/stl/Body23.stl" scale="0.01913 0.01913 0.01913"/>
+        </geometry>
+        <material name="Opaque(76,76,76)"/>
+      </visual>
+      <visual name="Body24">
+        <origin xyz="-0.02792 -0.00816 0.04271" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="meshes/stl/Body24.stl" scale="0.01913 0.01913 0.01913"/>
+        </geometry>
+        <material name="Opaque(255,206,127)"/>
+      </visual>
+      <visual name="Body25">
+        <origin xyz="-0.02792 -0.00816 0.04271" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="meshes/stl/Body25.stl" scale="0.01913 0.01913 0.01913"/>
+        </geometry>
+        <material name="Opaque(76,76,76)"/>
+      </visual>
+      <visual name="Body26">
+        <origin xyz="-0.02792 -0.00816 0.04271" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="meshes/stl/Body26.stl" scale="0.01913 0.01913 0.01913"/>
+        </geometry>
+        <material name="Opaque(198,178,163)"/>
+      </visual>
+      <visual name="Body27">
+        <origin xyz="-0.02792 -0.00816 0.04271" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="meshes/stl/Body27.stl" scale="0.01913 0.01913 0.01913"/>
+        </geometry>
+        <material name="Opaque(214,119,94)"/>
+      </visual>
+      <visual name="Body3">
+        <origin xyz="-0.02792 -0.00816 0.04271" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="meshes/stl/Body3.stl" scale="0.01913 0.01913 0.01913"/>
+        </geometry>
+        <material name="Opaque(198,193,188)"/>
+      </visual>
+      <visual name="Body4">
+        <origin xyz="-0.02792 -0.00816 0.04271" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="meshes/stl/Body4.stl" scale="0.01913 0.01913 0.01913"/>
+        </geometry>
+        <material name="Opaque(255,199,168)"/>
+      </visual>
+      <visual name="Body5">
+        <origin xyz="-0.02792 -0.00816 0.04271" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="meshes/stl/Body5.stl" scale="0.01913 0.01913 0.01913"/>
+        </geometry>
+        <material name="Opaque(202,209,238)"/>
+      </visual>
+      <visual name="Body6">
+        <origin xyz="-0.02792 -0.00816 0.04271" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="meshes/stl/Body6.stl" scale="0.01913 0.01913 0.01913"/>
+        </geometry>
+        <material name="Opaque(51,51,51)"/>
+      </visual>
+      <visual name="Body7">
+        <origin xyz="-0.02792 -0.00816 0.04271" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="meshes/stl/Body7.stl" scale="0.01913 0.01913 0.01913"/>
+        </geometry>
+        <material name="Opaque(255,206,127)"/>
+      </visual>
+      <visual name="Body8">
+        <origin xyz="-0.02792 -0.00816 0.04271" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="meshes/stl/Body8.stl" scale="0.01913 0.01913 0.01913"/>
+        </geometry>
+        <material name="Opaque(255,206,127)"/>
+      </visual>
+      <visual name="Body9">
+        <origin xyz="-0.02792 -0.00816 0.04271" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="meshes/stl/Body9.stl" scale="0.01913 0.01913 0.01913"/>
+        </geometry>
+        <material name="Opaque(255,206,127)"/>
+      </visual>
+      <collision name="Body1.000">
+        <origin xyz="-0.02694 -0.00899 0.04304" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="meshes/stl/Body1.001.stl" scale="1.91308 1.91308 1.91308"/>
+        </geometry>
+      </collision>
+      <collision name="Body23.000">
+        <origin xyz="-0.03031 -0.00834 0.0425" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="meshes/stl/Body23.001.stl" scale="1.91308 1.91308 1.91308"/>
+        </geometry>
+      </collision>
+      <collision name="Body24.000">
+        <origin xyz="-0.0283 -0.00808 0.0441" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="meshes/stl/Body24.001.stl" scale="1.91308 1.91308 1.91308"/>
+        </geometry>
+      </collision>
+      <collision name="Body25.000">
+        <origin xyz="-0.02798 -0.00886 0.05092" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="meshes/stl/Body25.001.stl" scale="1.91308 1.91308 1.91308"/>
+        </geometry>
+      </collision>
+      <collision name="Body3.000">
+        <origin xyz="-0.02695 -0.00714 0.04028" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="meshes/stl/Body3.001.stl" scale="1.91308 1.91308 1.91308"/>
+        </geometry>
+      </collision>
+      <collision name="Body5.000">
+        <origin xyz="-0.02659 -0.00839 0.04212" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="meshes/stl/Body5.001.stl" scale="1.91308 1.91308 1.91308"/>
+        </geometry>
+      </collision>
+      <collision name="Body6.000">
+        <origin xyz="-0.02771 -0.00796 0.04287" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="meshes/stl/Body6.001.stl" scale="1.91308 1.91308 1.91308"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="ee_joint_arm" type="fixed">
+      <origin xyz="5e-05 0.00304 -0.05711" rpy="0 0 0"/>
+      <parent link="root"/>
+      <child link="ee_joint_arm"/>
+    </joint>
+
+    <joint name="nozzle_tip" type="fixed">
+      <origin xyz="0.00193 0.01399 0.76487" rpy="0.92502 0 0"/>
+      <parent link="root"/>
+      <child link="nozzle_tip"/>
+    </joint>
+
+    <material name="Opaque(175,155,135)">
+      <color rgba="0.54902 0.48627 0.42353 1.0"/>
+    </material>
+
+    <material name="Opaque(198,178,163)">
+      <color rgba="0.62118 0.55843 0.51137 1.0"/>
+    </material>
+
+    <material name="Opaque(198,193,188)">
+      <color rgba="0.62118 0.60549 0.5898 1.0"/>
+    </material>
+
+    <material name="Opaque(202,209,238)">
+      <color rgba="0.63373 0.65569 0.74667 1.0"/>
+    </material>
+
+    <material name="Opaque(214,119,94)">
+      <color rgba="0.67137 0.37333 0.2949 1.0"/>
+    </material>
+
+    <material name="Opaque(229,234,237)">
+      <color rgba="0.71843 0.73412 0.74353 1.0"/>
+    </material>
+
+    <material name="Opaque(255,199,168)">
+      <color rgba="0.8 0.62431 0.52706 1.0"/>
+    </material>
+
+    <material name="Opaque(255,206,127)">
+      <color rgba="0.8 0.64627 0.39843 1.0"/>
+    </material>
+
+    <material name="Opaque(255,255,255)">
+      <color rgba="0.8 0.8 0.8 1.0"/>
+    </material>
+
+    <material name="Opaque(51,51,51)">
+      <color rgba="0.16 0.16 0.16 1.0"/>
+    </material>
+
+    <material name="Opaque(76,76,76)">
+      <color rgba="0.23843 0.23843 0.23843 1.0"/>
+    </material>
+
+  </robot>

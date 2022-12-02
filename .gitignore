@@ -1,0 +1,6 @@
+__pycache__/
+.idea/
+.vscode/
+/experiments/
+/tests/videos/
+/rlbotics/envs/panda_gripper/parts/
