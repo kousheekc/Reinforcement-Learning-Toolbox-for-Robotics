@@ -1,8 +1,11 @@
-### RLbotics
+### Reinforcement Learning Toolbox for Robotics
 
-Reinforcement Learning Toolbox developed in Pytorch.
+Toolbox with highly optimized implementations of deep reinforcement learning algorithms for robotics using Pytorch and Python.
 
-## Toolbox Structure
+In this project, two colleagues and I develop a toolbox with state of the art reinforcement learning algorithms using Pytorch and Python. The toolbox contains other useful features such as custom robotics environments, loggers, plotters and much more.
+
+## About The Project
+### Toolbox Structure
 All the algorithms are in the `rlbotics` directory. Each algorithm specified above has an individual directory.
 
 ### Common
@@ -38,5 +41,36 @@ To contribute to this package, it is recommended to follow this structure:
   - `update_policy`: Update the policy
   - `update_value`: Update the value function
 
-TODO:
-Add documentation on the environments.
+## Getting Started
+
+### Prerequisites
+* The program was created using **Python3.7**
+* OpenCV
+* Matplotlib
+
+### Installation
+To install the RLBotics toolbox, install the required librarires and clone this repository using the following commands:
+
+```
+pip install opencv-python
+pip install matplotlib
+git clone https://github.com/kousheekc/DIY-Spectrometer-Analyser.git
+```
+
+## Usage
+To run the an algorithm on a perticular environment, open a terminal and navigate to the folder you just cloned and run the following command:
+```
+python3 analyser.py
+```
+Once the algorithm is running you can deploy a tensorboard session ot track the progress.
+
+## License
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
+
+## Contact
+Kousheek Chakraborty - kousheekc@gmail.com
+Dyuman Aditya - dyuman2001@gmail.com
+Suman Pal - suman7495@gmail.com
+
+Project Link: [https://github.com/kousheekc/Reinforcement-Learning-Toolbox-for-Robotics](https://github.com/kousheekc/Reinforcement-Learning-Toolbox-for-Robotics)
+
