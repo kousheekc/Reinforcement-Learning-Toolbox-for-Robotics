@@ -80,7 +80,9 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
 ## Contact
 Kousheek Chakraborty - kousheekc@gmail.com
+
 Dyuman Aditya - dyuman2001@gmail.com
+
 Suman Pal - suman7495@gmail.com
 
 Project Link: [https://github.com/kousheekc/Reinforcement-Learning-Toolbox-for-Robotics](https://github.com/kousheekc/Reinforcement-Learning-Toolbox-for-Robotics)
